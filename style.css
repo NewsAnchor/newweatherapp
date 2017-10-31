@@ -1,0 +1,79 @@
+  html {
+    width: 100%;
+  }
+  
+  body {
+  padding-left: 10%;
+  padding-right:8%;
+  background:no-repeat center center fixed;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.block{
+    background-color:black;
+    opacity:.65;
+    color:beige;
+    padding: 50px;
+    margin-right:auto;
+    margin-left:auto;
+    border-radius:5px;
+    font-size:1.5em;
+    padding-bottom:2%;
+    float: left;
+}
+.spacer{
+  
+  }
+
+.block img {
+  width:150px;
+  height:150px;
+}
+
+
+#currentWeather {
+  text-transform: capitalize;
+  font-size: 25px;
+ 
+}
+
+.span3 {
+  padding:2.5%;
+}
+
+.span4 {
+  width:400px;
+  height:40px;
+} 
+
+.textDescription {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Abril Fatface', cursive;
+}
+#logLocal {
+  background-image: url('https://static.pexels.com/photos/54459/summer-sunflower-flowers-sky-54459.jpeg');
+  color:beige;
+}
+
+.footer {
+  width:100%;
+  height:10%;
+  background-color: none;
+}
+@media screen and (max-width: 560px) {
+    .block img {
+        width:60px;
+        height: 60px;
+    }
+    .block {
+      font-size: 12px; 
+    }
+
+    #currentWeather {
+      font-size:16px;
+    }
+}

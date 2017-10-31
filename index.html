@@ -1,0 +1,116 @@
+<html>
+  <head>
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="app.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+  </head>
+<body>
+  <div class='page container-fluid' style="border:12px solid green;display: inline-blockoverflow: auto;">
+    <div id='header'>
+
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid" style="background-color: light blue;padding-right:85%;">
+          <div class="navbar-header">
+            <a href="#" class='toggle'style="color:white;"><span class="glyphicon glyphicon-globe" style="color:white;"></span> Celsius/Fahrenheit</a>
+           <br>
+           <a href="#" class='speed'style="color:white;"><span class="glyphicon glyphicon-globe"style="color:white;"></span> Kilometres/Miles</a>
+          </div>
+          
+        </div>
+      </nav>
+
+    </div>
+</div>
+    <a name="top"></a>
+
+    <div class='spacer'style="display:flex; padding-top: 10%;">
+
+  
+  <div class='block container-fluid' style="width:38%;height:500px;display:inline-block;margin-right:1.5%;margin-left:-1%; padding-bottom: 0%;">
+  <div id="imgBlock">
+      <h1 class='text-center'><span id='currentTemp'>...</span></h1>
+      
+      <h1 class='text-center'><span id='currentWeather'>...</span></h1>
+   
+      <h1 class='text-center'><span id='currentWind' >...</span></h1> 
+
+      <div class="Geography" style="text-align: center;">
+      <span id="city"></span>
+       <span id="country"></span>
+      <br> 
+       </div>
+      
+</div>
+</div>
+
+<div class="rowLocal" style="display:inline-block;padding-right:0%;margin-right:-1%;width:85%;">
+
+        
+
+            <div id="logLocal" style="display:inline-block;padding-right:0%;margin-right:0%;">
+
+            </div>
+    </div>
+
+
+
+</div>
+
+
+   
+
+
+
+<p class="textDescription">Weather Forecast For Any Location World Wide</p>
+
+
+<div class="container" style="width:90%; padding-left: 5%; padding-right:1.5%;border:1px solid blue;">
+
+    
+      <div class="span4 offset 3"></div>
+      
+      <div class="span6  offset1"><input class="span4" type="text" placeholder="City Name" id="city-name" value="" style="width:99%;"/>
+      </div>
+   
+      <br>
+
+      <div class="span6 offset1"><input type="button" class="btn btn-primary btn-lg btn-block btn-metric" role="button" value="Metric"/>
+      <br>
+      
+      <div class="span6 offset1"><input type="button" class="btn btn-primary btn-lg btn-block btn-imperial" value="Imperial"/>
+      </div>   
+      <br>
+      
+      <div class="span6 offset1"><input type="button" class="btn btn-primary btn-lg btn-block" id="clickme" value="Show"/>
+      </div>    
+      <br>
+      <div class="span6 offset1"><input type="button" class="btn btn-primary btn-lg btn-block" id="clickme1" value="Hide"/>
+      </div> 
+      <br>
+</div>
+    
+      <div class="containerForecast" style="display:inline;">
+        <div id="log"></div>
+      </div>
+    
+
+</div>
+
+
+</body>
+ <footer class="footer">
+   
+   
+ </footer>
+
+</html>
