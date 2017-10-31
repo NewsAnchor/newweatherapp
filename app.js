@@ -46,13 +46,13 @@ function displayTemp (F,C) {
   
     
     weatherImages = [
-          '<img src=​"day.jpg">​', 
-          '<img src=​"day.jpg">​', 
-          '<img src=​"day.jpg">​',
-          '<img src=​"day.jpg">​',
-          '<img src=​"day.jpg">​',
-          '<img src=​"day.jpg">​',
-          '<img src=​"day.jpg">​'
+          'day.jpg', 
+          'day.jpg',
+          'day.jpg',
+          'day.jpg',
+          'day.jpg',
+          'day.jpg',
+          'day.jpg'
 
   ];
   
